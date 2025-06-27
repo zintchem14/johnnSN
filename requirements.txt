@@ -1,0 +1,15 @@
+streamlit==1.44.1
+pandas
+folium
+streamlit-folium
+branca
+streamlit-autorefresh
+requests
+joblib
+scikit-learn
+Pillow
+matplotlib
+xgboost
+replicate
+numpy
+tensorflow
