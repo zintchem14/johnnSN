@@ -1,4 +1,3 @@
-streamlit==1.44.1
 pandas
 folium
 streamlit-folium
@@ -7,9 +6,8 @@ streamlit-autorefresh
 requests
 joblib
 scikit-learn
+xgboost
 Pillow
 matplotlib
-xgboost
-replicate
-numpy
-tensorflow
+groq
+typing-extensions
