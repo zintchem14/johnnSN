@@ -249,7 +249,7 @@ st.markdown(f"""
 # -------- CHARGEMENT DES DONNÉES --------
 @st.cache_data
 def load_data():
-    return pd.read_csv("src/df_final.csv")
+    return pd.read_csv("df_final.csv")
 
 df = load_data()
 
@@ -376,7 +376,7 @@ if st.checkbox("UN SOUVENIR AVEC LES DASHBOARD POWER BI VOUS POUVEZ NAVIGUER HOR
 
 
 # Chargement du modèle XGBoost déjà entraîné et sauvegardé
-model = joblib.load("src/JOHN_XGBOOST.pkl")
+model = joblib.load("JOHN_XGBOOST.pkl")
 
 st.markdown(
         f"""
